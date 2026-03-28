@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="12. Sınıf 2. Dönem 1. Yazılı Tarih Sınav Çalışması Notları">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>12. Sınıf Tarih Sınav Çalışması</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="theme-toggle" aria-label="Tema Değiştir" title="Koyu/Açık Tema">
+        <span class="theme-icon sun">&#9728;</span>
+        <span class="theme-icon moon">&#9790;</span>
+    </button>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTop" class="scroll-top" aria-label="Yukarı Çık" title="Yukarı Çık">&#8679;</button>
+
+    <!-- Navigation Sidebar -->
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2>&#128218; İçindekiler</h2>
+            <button id="sidebarClose" class="sidebar-close" aria-label="Menüyü Kapat">&times;</button>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#ekonomi" class="nav-link">Ekonomi Alanında İnkılaplar</a></li>
+            <li><a href="#basmaci" class="nav-link">Basmacı Harekâtı</a></li>
+            <li><a href="#ilkeler" class="nav-link">Atatürk İlkeleri</a></li>
+            <li><a href="#dunya-savasi" class="nav-link">II. Dünya Savaşı Kavramları</a></li>
+            <li><a href="#demokratiklesme" class="nav-link">Demokratikleşme Adımları</a></li>
+            <li><a href="#ekonomi-krizi" class="nav-link">1929 Dünya Ekonomi Krizi</a></li>
+            <li><a href="#antlasmalar" class="nav-link">Doğu-Batı Sınır Antlaşmaları</a></li>
+            <li><a href="#mihver-muttefik" class="nav-link">Mihver ve Müttefik Devletler</a></li>
+            <li><a href="#totaliter" class="nav-link">Totaliter Rejim Projeleri</a></li>
+            <li><a href="#dis-politika" class="nav-link">Dış Politika Sorunları</a></li>
+            <li><a href="#ataturk-sozu" class="nav-link">Atatürk'ün Sözü</a></li>
+        </ul>
+    </nav>
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+    <!-- Menu Toggle Button (Mobile) -->
+    <button id="menuToggle" class="menu-toggle" aria-label="Menüyü Aç">
+        <span></span><span></span><span></span>
+    </button>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">12. Sınıf &bull; 2. Dönem &bull; 1. Yazılı</div>
+            <h1 class="hero-title">Tarih Sınav<br>Çalışması</h1>
+            <p class="hero-subtitle">Atatürk Dönemi &amp; II. Dünya Savaşı</p>
+            <a href="#ekonomi" class="hero-cta">Çalışmaya Başla &#8595;</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- SECTION 1: Ekonomi İnkılapları -->
+        <section id="ekonomi" class="section">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Atatürk Dönemi Ekonomi Alanında Yapılan İnkılaplar</h2>
+            </div>
+            <div class="quote-card">
+                <blockquote>
+                    "Ekonomik bağımsızlık olmadan siyasi bağımsızlık olmaz."
+                </blockquote>
+                <cite>— Mustafa Kemal Atatürk</cite>
+            </div>
+            <div class="cards-grid">
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">&#127981;</div>
+                    <h3>İzmir İktisat Kongresi</h3>
+                    <p><strong>1923</strong>'te İzmir İktisat Kongresi toplandı.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">&#9881;</div>
+                    <h3>Teşvik-i Sanayi Kanunu</h3>
+                    <p><strong>1927</strong>'de Teşvik-i Sanayi Kanunu çıkarıldı. Bu kanunun amacı özel sektörü sanayi alanına çekmektir.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">&#127974;</div>
+                    <h3>Milli Bankalar</h3>
+                    <p><strong>İş Bankası</strong> (Ticaret), <strong>Denizbank</strong> (Deniz), <strong>Sümerbank</strong> (Sanayi), <strong>Etibank</strong> (Maden) gibi milli bankalar açıldı.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">&#128674;</div>
+                    <h3>Kabotaj Kanunu</h3>
+                    <p><strong>1 Temmuz 1926</strong>'da Kabotaj Kanunu çıkartıldı.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">&#128176;</div>
+                    <h3>Merkez Bankası</h3>
+                    <p><strong>1930</strong>'da memleketimizin nakit para işiyle uğraşması için Merkez Bankası kurulmuştur.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">&#128178;</div>
+                    <h3>Türk Parasının Kıymetini Koruma Kanunu</h3>
+                    <p>Türk Parasının Kıymetini Koruma Kanunu çıkarıldı.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">&#128202;</div>
+                    <h3>Birinci Beş Yıllık Kalkınma Planı</h3>
+                    <p>Birinci Beş Yıllık Kalkınma Planı hazırlanmıştır.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">&#9935;</div>
+                    <h3>Maden Tetkik Arama Enstitüsü (MTA)</h3>
+                    <p><strong>1935</strong> yılında Maden Tetkik Arama Enstitüsü (MTA) kuruldu.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: Basmacı Harekâtı -->
+        <section id="basmaci" class="section">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Basmacı Harekâtı</h2>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-icon">&#9876;</div>
+                <div class="highlight-content">
+                    <h3>Basmacı Harekâtı Nedir?</h3>
+                    <p><strong>Basmacı;</strong> baskın yapan, hücum eden manasına gelir. Türkistan Türklerinin <strong>SSCB'ye</strong> karşı başlattığı bağımsızlık harekâtıdır. <strong>Korbaşı Ergaş</strong> önderliğinde <strong>Hokand</strong> şehrinde başlamıştır.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: Atatürk İlkeleri -->
+        <section id="ilkeler" class="section">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Atatürk İlkeleriyle İlgili Anahtar Kavramlar</h2>
+            </div>
+            <div class="principles-grid">
+                <div class="principle-card cumhuriyetcilik">
+                    <div class="principle-header">
+                        <span class="principle-icon">&#127963;</span>
+                        <h3>Cumhuriyetçilik</h3>
+                    </div>
+                    <div class="principle-tags">
+                        <span class="tag">Milli Egemenlik</span>
+                        <span class="tag">Milli İrade</span>
+                        <span class="tag">Demokrasi</span>
+                        <span class="tag">Seçme ve Seçilme</span>
+                    </div>
+                </div>
+                <div class="principle-card laiklik">
+                    <div class="principle-header">
+                        <span class="principle-icon">&#9878;</span>
+                        <h3>Laiklik</h3>
+                    </div>
+                    <div class="principle-tags">
+                        <span class="tag">Din-Devlet Ayrımı</span>
+                        <span class="tag">Din ve Vicdan Hürriyeti</span>
+                        <span class="tag">Akılcılık ve Bilimsellik</span>
+                    </div>
+                </div>
+                <div class="principle-card milliyetcilik">
+                    <div class="principle-header">
+                        <span class="principle-icon">&#127988;</span>
+                        <h3>Milliyetçilik</h3>
+                    </div>
+                    <div class="principle-tags">
+                        <span class="tag">Milli Bağımsızlık</span>
+                        <span class="tag">Ortak Dil ve Tarih</span>
+                        <span class="tag">Vatan Sevgisi</span>
+                        <span class="tag">Ülkü Birliği</span>
+                    </div>
+                </div>
+                <div class="principle-card inkilapcilik">
+                    <div class="principle-header">
+                        <span class="principle-icon">&#128161;</span>
+                        <h3>İnkılapçılık</h3>
+                    </div>
+                    <div class="principle-tags">
+                        <span class="tag">Modernleşme</span>
+                        <span class="tag">Süreklilik</span>
+                        <span class="tag">Yenileşme</span>
+                        <span class="tag">Dinamizm</span>
+                        <span class="tag">Çağdaşlaşma</span>
+                    </div>
+                </div>
+                <div class="principle-card halkcilik">
+                    <div class="principle-header">
+                        <span class="principle-icon">&#129309;</span>
+                        <h3>Halkçılık</h3>
+                    </div>
+                    <div class="principle-tags">
+                        <span class="tag">Eşitlik</span>
+                        <span class="tag">Toplumsal Dayanışma</span>
+                        <span class="tag">Sosyal Adalet</span>
+                        <span class="tag">Halka Hizmet</span>
+                    </div>
+                </div>
+                <div class="principle-card devletcilik">
+                    <div class="principle-header">
+                        <span class="principle-icon">&#127959;</span>
+                        <h3>Devletçilik</h3>
+                    </div>
+                    <div class="principle-tags">
+                        <span class="tag">Ekonomi</span>
+                        <span class="tag">Yatırım</span>
+                        <span class="tag">Fabrikalar ve Bankaların Kurulması</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: II. Dünya Savaşı Kavramları -->
+        <section id="dunya-savasi" class="section">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">II. Dünya Savaşıyla İlgili Kavramlar</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>&#9992; Kartal Hücumu</h3>
+                        <p><strong>Almanya</strong>'nın <strong>İngiltere</strong>'ye karşı düzenlediği hava harekâtıdır.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>&#128163; Pearl Harbour Baskını</h3>
+                        <p>Japonya Deniz Kuvvetleri Komutanı <strong>Amiral Yamamoto</strong>'nun, ABD'nin <strong>Hawaii</strong>'deki donanmasına yaptığı hava saldırısıdır. ABD'nin savaşa katılmasına neden oldu. <strong>Japon General Yamamoto</strong> baskını düzenlemiştir.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>&#127754; Normandiya Çıkarması</h3>
+                        <p><strong>Müttefik devletlerin</strong> Fransa'yı Alman işgalinden kurtardıkları çıkarmadır.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Demokratikleşme -->
+        <section id="demokratiklesme" class="section">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Atatürk Döneminde Demokratikleşme Yolunda Atılan Adımlar</h2>
+            </div>
+
+            <div class="subsection">
+                <h3 class="subsection-title">a) Çok Partili Hayata Geçiş Döneminde Kurulan Siyasi (Muhalefet) Partileri</h3>
+                <div class="party-cards">
+                    <div class="party-card">
+                        <div class="party-date">17 Kasım 1924</div>
+                        <h4>Terakkiperver Cumhuriyet Fırkası</h4>
+                    </div>
+                    <div class="party-card">
+                        <div class="party-date">12 Ağustos 1930</div>
+                        <h4>Serbest Cumhuriyet Fırkası</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h3 class="subsection-title">b) Çok Partili Hayata Geçilememesinin Nedenleri</h3>
+                <div class="reasons-list">
+                    <div class="reason-item">
+                        <div class="reason-number">1</div>
+                        <div class="reason-content">
+                            <h4>İç Tehditler ve İsyanlar</h4>
+                            <p><strong>Şeyh Said İsyanı (1925)</strong>, <strong>Menemen Olayı (1930)</strong> gibi olaylar, rejimin henüz yeterince oturmadığını gösterdi.</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <div class="reason-number">2</div>
+                        <div class="reason-content">
+                            <h4>Tek Parti Dönemi Gerekliliği</h4>
+                            <p>Devrimlerin (harf inkılabı, kıyafet inkılabı, medeni kanun vb.) hızla ve sorunsuz uygulanabilmesi için güçlü bir iktidar gerekti.</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <div class="reason-number">3</div>
+                        <div class="reason-content">
+                            <h4>Ekonomik ve Sosyal Şartlar</h4>
+                            <p>Yeni kurulmuş bir devlette, okuryazar oranının düşük olması, ekonomik kriz (<strong>1929 Dünya Buhranı</strong>) ve dış tehditler nedeniyle istikrarlı bir çok partili sistem için zemin yetersizdi.</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <div class="reason-number">4</div>
+                        <div class="reason-content">
+                            <h4>Atatürk'ün Görüşü</h4>
+                            <p>Demokrasiye inanıyordu ancak "muhalefetin rejimi tehlikeye atacağı" endişesiyle acele etmedi. Serbest Fırka deneyimi sonrası "kontrollü muhalefet" denemesinin de başarısız olması bu süreci erteledi.</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <div class="reason-number">5</div>
+                        <div class="reason-content">
+                            <h4>Dış Etkenler</h4>
+                            <p>Dönemin dünya şartlarında (<strong>faşizm ve komünizm yükselişi</strong>) Türkiye'nin istikrarını koruması gerekiyordu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: 1929 Dünya Ekonomi Krizi -->
+        <section id="ekonomi-krizi" class="section">
+            <div class="section-header">
+                <span class="section-number">06</span>
+                <h2 class="section-title">1929 Dünya Ekonomi Krizi ve Türkiye'ye Etkileri</h2>
+            </div>
+            <div class="crisis-intro">
+                <p>ABD'de <strong>"Kara Perşembe"</strong> ile başlayıp kısa sürede dünyaya yayılan tarihin en büyük ekonomik krizidir.</p>
+            </div>
+            <div class="effects-grid">
+                <div class="effect-card">
+                    <div class="effect-icon">&#128200;</div>
+                    <p>Dış ticaret daraldı, tarım ürünlerindeki fiyat düşüşleri Türk çiftçisini olumsuz etkiledi.</p>
+                </div>
+                <div class="effect-card">
+                    <div class="effect-icon">&#128683;</div>
+                    <p>İthalata kısıtlama getirildi ve gümrük vergileri yükseltildi.</p>
+                </div>
+                <div class="effect-card">
+                    <div class="effect-icon">&#128259;</div>
+                    <p>Dış ticarette <strong>"kliring"</strong> (malımı alanın, malını alırım) ve <strong>"takas"</strong> sistemi uygulamasına başlandı.</p>
+                </div>
+                <div class="effect-card">
+                    <div class="effect-icon">&#127963;</div>
+                    <p>TBMM Başkanı <strong>Kazım Özalp</strong>'in başkanlığında <strong>"Milli İktisat ve Tasarruf Cemiyeti"</strong> kuruldu.</p>
+                </div>
+                <div class="effect-card">
+                    <div class="effect-icon">&#127479;&#127481;</div>
+                    <p>1929'dan itibaren <strong>"Yerli Malı Haftaları"</strong> düzenlendi. Ekonomide <strong>"devletçi modele"</strong> geçildi.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: Antlaşmalar -->
+        <section id="antlasmalar" class="section">
+            <div class="section-header">
+                <span class="section-number">07</span>
+                <h2 class="section-title">Atatürk Döneminde Doğu ve Batı Sınırlarını Güvence Altına Almak Amacıyla İmzalanan Antlaşmalar</h2>
+            </div>
+            <div class="treaty-cards">
+                <div class="treaty-card">
+                    <div class="treaty-year">1934</div>
+                    <h3>Balkan Antantı</h3>
+                    <div class="treaty-countries">
+                        <span class="country-tag">Türkiye</span>
+                        <span class="country-tag">Yunanistan</span>
+                        <span class="country-tag">Yugoslavya</span>
+                        <span class="country-tag">Romanya</span>
+                    </div>
+                    <p class="treaty-desc">İtalya'nın saldırgan tutumlarına karşı <strong>batı sınırlarımızı</strong> güvenlik altına alma ve uluslararası ittifaklara katılma amaçlıdır.</p>
+                </div>
+                <div class="treaty-card">
+                    <div class="treaty-year">1937</div>
+                    <h3>Sadabat Paktı</h3>
+                    <div class="treaty-countries">
+                        <span class="country-tag">Türkiye</span>
+                        <span class="country-tag">Irak</span>
+                        <span class="country-tag">İran</span>
+                        <span class="country-tag">Afganistan</span>
+                    </div>
+                    <p class="treaty-desc">İtalya'nın saldırgan tutumlarına karşı <strong>güney ve doğu sınırlarımızı</strong> güvenlik altına almak amaçlıdır.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: Mihver ve Müttefik -->
+        <section id="mihver-muttefik" class="section">
+            <div class="section-header">
+                <span class="section-number">08</span>
+                <h2 class="section-title">İkinci Dünya Savaşında Yer Alan Mihver ve Müttefik Devletler</h2>
+            </div>
+            <div class="vs-container">
+                <div class="vs-side mihver">
+                    <h3>Mihver Devletler</h3>
+                    <ul>
+                        <li>&#127465;&#127466; Almanya</li>
+                        <li>&#127470;&#127481; İtalya</li>
+                        <li>&#127471;&#127477; Japonya</li>
+                    </ul>
+                </div>
+                <div class="vs-divider">
+                    <span>VS</span>
+                </div>
+                <div class="vs-side muttefik">
+                    <h3>Müttefik Devletler</h3>
+                    <ul>
+                        <li>&#127468;&#127463; İngiltere</li>
+                        <li>&#127467;&#127479; Fransa</li>
+                        <li>&#127482;&#127480; ABD</li>
+                        <li>&#127479;&#127482; SSCB</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 8: Totaliter Rejim Projeleri -->
+        <section id="totaliter" class="section">
+            <div class="section-header">
+                <span class="section-number">09</span>
+                <h2 class="section-title">Totaliter Rejimlere Ait Projeler</h2>
+            </div>
+            <div class="totaliter-grid">
+                <div class="totaliter-card almanya">
+                    <div class="totaliter-flag">&#127465;&#127466;</div>
+                    <h3>Almanya</h3>
+                    <div class="totaliter-project">Hayat Sahası</div>
+                </div>
+                <div class="totaliter-card italya">
+                    <div class="totaliter-flag">&#127470;&#127481;</div>
+                    <h3>İtalya</h3>
+                    <div class="totaliter-project">Bizim Deniz</div>
+                </div>
+                <div class="totaliter-card japonya">
+                    <div class="totaliter-flag">&#127471;&#127477;</div>
+                    <h3>Japonya</h3>
+                    <div class="totaliter-project">Ortak Refah Alanı</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 9: Dış Politika Sorunları -->
+        <section id="dis-politika" class="section">
+            <div class="section-header">
+                <span class="section-number">10</span>
+                <h2 class="section-title">Atatürk Dönemi Türk Dış Politikasında Çözüme Kavuşturulan Sorunlar</h2>
+            </div>
+            <div class="issues-grid">
+                <div class="issue-card">
+                    <span class="issue-icon">&#127758;</span>
+                    <h4>Musul Sorunu</h4>
+                </div>
+                <div class="issue-card">
+                    <span class="issue-icon">&#128674;</span>
+                    <h4>Boğazlar Sorunu</h4>
+                </div>
+                <div class="issue-card">
+                    <span class="issue-icon">&#128683;</span>
+                    <h4>Kapitülasyonların Kaldırılması</h4>
+                </div>
+                <div class="issue-card">
+                    <span class="issue-icon">&#128101;</span>
+                    <h4>Nüfus Mübadelesi</h4>
+                </div>
+                <div class="issue-card">
+                    <span class="issue-icon">&#127979;</span>
+                    <h4>Yabancı Okullar Sorunu</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 10: Atatürk'ün Sözü -->
+        <section id="ataturk-sozu" class="section">
+            <div class="section-header">
+                <span class="section-number">11</span>
+                <h2 class="section-title">Atatürk'ün Sözü Hangi Dış Politika Konusuyla İlgilidir?</h2>
+            </div>
+            <div class="quote-highlight">
+                <div class="quote-mark">&#10077;</div>
+                <blockquote>Bu, benim şahsi meselemdir...</blockquote>
+                <div class="quote-answer">
+                    <span class="answer-label">Cevap:</span>
+                    <span class="answer-text" id="answerText">Cevabı görmek için tıklayın</span>
+                </div>
+                <div class="answer-hidden" id="answerHidden">
+                    <p>Bu söz <strong>Hatay Sorunu</strong> ile ilgilidir. Atatürk, Hatay'ın Türkiye'ye katılmasını kişisel bir mesele olarak görmüştür.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">Made by Mek</p>
+            <p class="footer-sub">12. Sınıf Tarih Sınav Çalışması &copy; 2025</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
